@@ -28,3 +28,4 @@ jobs:
           password: ${{ secrets.ftp_password }}
           local-dir: ./build/
           server-dir: ./home/www/health-advisers-portal.c1.biz/
+          dangerous-clean-slate: true
