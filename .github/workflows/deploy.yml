@@ -23,5 +23,8 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
           server: f14-preview.biz.nf
+          port: 21
           username: 2078096
           password: ${{ secrets.ftp_password }}
+          local-dir: ./build/
+          server-dir: /home/www/health-advisers-portal.c1.biz
