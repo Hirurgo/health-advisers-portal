@@ -27,4 +27,4 @@ jobs:
           username: 2078096
           password: ${{ secrets.ftp_password }}
           local-dir: ./build/
-          server-dir: /home/www/health-advisers-portal.c1.biz/
+          server-dir: ./home/www/health-advisers-portal.c1.biz/
