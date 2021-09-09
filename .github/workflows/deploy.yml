@@ -20,12 +20,13 @@ jobs:
         run: npm run build
 
       - name: Deploy to http://health-advisers-portal.c1.biz
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        uses: kevinpainchaud/simple-ftp-deploy-action@v1.2.1
         with:
-          server: f14-preview.biz.nf
-          port: 21
-          username: 2078096
-          password: ${{ secrets.ftp_password }}
-          local-dir: build/
-          server-dir: home/www/health-advisers-portal.c1.biz/
-          dangerous-clean-slate: true
+          ftp_host: f14-preview.biz.nf
+          ftp_username: 2078096
+          ftp_password: ${{ secrets.FTP_PASSWORD }}
+          local_source_dir: "build"
+          dist_target_dir: "home/www/health-advisers-portal.c1.biz"
+          delete: "true"
+
+      
