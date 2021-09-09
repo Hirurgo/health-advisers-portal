@@ -26,7 +26,7 @@ jobs:
           ftp_username: 2078096
           ftp_password: ${{ secrets.FTP_PASSWORD }}
           local_source_dir: "build"
-          dist_target_dir: "www/health-advisers-portal.c1.biz"
+          dist_target_dir: "health-advisers-portal.c1.biz"
           delete: "true"
 
       
