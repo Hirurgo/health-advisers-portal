@@ -10,7 +10,6 @@ function App() {
         userId={'HelthAdviser1'}
         allowProfileEdit
         showSearchIcon
-        theme='dark'
       />
     </div>
   );
