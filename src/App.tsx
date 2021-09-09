@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { App as SendBirdApp } from "sendbird-uikit";
 import "sendbird-uikit/dist/index.css";
