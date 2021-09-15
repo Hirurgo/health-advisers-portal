@@ -8,7 +8,6 @@ function App() {
       <SendBirdApp
         appId={'64CE9C86-77F6-498B-A688-3488E6C68502'}
         userId={'HelthAdviser1'}
-        allowProfileEdit
         showSearchIcon
       />
     </div>
