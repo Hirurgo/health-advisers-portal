@@ -22,11 +22,11 @@ jobs:
       - name: Deploy to http://health-advisers-portal.c1.biz
         uses: kevinpainchaud/simple-ftp-deploy-action@v1.2.1
         with:
-          ftp_host: f14-preview.biz.nf
-          ftp_username: 2078096
+          ftp_host: files.000webhost.com
+          ftp_username: wfefwefwef
           ftp_password: ${{ secrets.FTP_PASSWORD }}
           local_source_dir: "build"
-          dist_target_dir: "health-advisers-portal.c1.biz"
+          dist_target_dir: "public_html"
           delete: "true"
 
       
