@@ -19,9 +19,14 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.5
+      - name: Deploy to http://health-advisers-portal.c1.biz
+        uses: kevinpainchaud/simple-ftp-deploy-action@v1.2.1
         with:
-          branch: gh-pages
-          folder: build
+          ftp_host: files.000webhost.com
+          ftp_username: wfefwefwef
+          ftp_password: ${{ secrets.FTP_PASSWORD }}
+          local_source_dir: "build"
+          dist_target_dir: "public_html"
+          delete: "true"
+
       
