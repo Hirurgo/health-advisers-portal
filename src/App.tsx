@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <SendBirdApp
-        appId={'E8CDDF0A-13CC-400E-BD8D-4E4C660E6C11'}
+        appId={'404E369B-11BC-40B0-A950-DBBAA9896B59'}
         userId={'HelthAdviser1'}
         showSearchIcon
       />
