@@ -9,7 +9,7 @@ This project is public and hoted here [HA portal](https://wfefwefwef.000webhosta
 
 ### Deploy
 
-Automatic deploay to [HA portal](https://wfefwefwef.000webhostapp.com/) on every push
+Automatic deploay to [HA portal](https://wfefwefwef.000webhostapp.com/) on every push (see progree in "Actions" tab) 
 
 
 ### Local run
