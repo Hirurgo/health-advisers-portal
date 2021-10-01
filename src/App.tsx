@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <SendBirdApp
-        appId={'0C34BECA-CD93-4409-8CC6-AA6C5DB3B819'}
+        appId={'8D6F3F52-21D4-4D1C-845A-AE252079F34B'}
         userId={'HealthAdviser1'}
-        accessToken={'a178dab1c39df763b5af7ced8d89741a1e78349d'}
+        accessToken={'5bbd56c9bf357fba9381d666f26205eaf6b7e136'}
         showSearchIcon
       />
     </div>
