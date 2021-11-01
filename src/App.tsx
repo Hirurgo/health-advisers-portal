@@ -10,7 +10,7 @@ function App() {
       <SendBirdApp
         appId={'7A150312-83AE-4A14-8147-AD9363266809'}
         userId={'HealthAdviser1'}
-        accessToken={'5bbd56c9bf357fba9381d666f26205eaf6b7e136'}
+        accessToken={'b200cca2488e842c61d45716058b1b7f60149731'}
         showSearchIcon
         config={config}
       />
