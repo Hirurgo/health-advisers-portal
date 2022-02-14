@@ -10132,10 +10132,10 @@
     "range-parser" "~1.2.1"
     "statuses" "~1.5.0"
 
-"sendbird-uikit@2.5.3":
-  "integrity" "sha512-Rpt/1ToEVPSRt5Ack2EaN5hHjEQxIbGYiH6JqXv2o6PwZat/xPSlTFEQU38Sqkw9vcIDBB+yVxVddcUv9vroGg=="
-  "resolved" "https://registry.npmjs.org/sendbird-uikit/-/sendbird-uikit-2.5.3.tgz"
-  "version" "2.5.3"
+"sendbird-uikit@2.6.0":
+  "integrity" "sha512-22abatqfLXyzQGon4tBO491G4sIcoTLDBGlSYjUOqrR0KqrJFm7Chtu1Mn6hL241fupZCUn9YrWS8PvZbY12Ug=="
+  "resolved" "https://registry.npmjs.org/sendbird-uikit/-/sendbird-uikit-2.6.0.tgz"
+  "version" "2.6.0"
   dependencies:
     "css-vars-ponyfill" "^2.3.2"
     "date-fns" "^2.16.1"
