@@ -13,6 +13,7 @@ function App() {
         accessToken={'b200cca2488e842c61d45716058b1b7f60149731'}
         showSearchIcon
         config={config}
+        replyType="QUOTE_REPLY"
       />
     </div>
   );
